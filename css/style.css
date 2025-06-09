@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Titillium+Web&display=swap');
+
+
+:root{
+    --color1: #000000;
+    --color2: #150050;
+    --color3: #3F0071;
+    --color4: #610094;
+    --tipo1:Special Elite;
+    --tipo2:Titillium Web;
+}
+
+body{
+    font-family: var(--tipo2);
+    font-size: 15px;
+    background-color: var(--color1);
+    color: #ffffff;
+}
+
+header{
+    background-color: var(--color2);
+    padding: 50px 0;
+
+}
+
+footer{
+    background-color: var(--color2);
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+footer	p{
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--tipo1);
+}
+
+.nav-bar-letras{
+    font-size: 20px;
+}
+
+.titulo{
+    color: #ffffff;
+    font-family: var(--tipo1);
+    font-size: 70px;
+}
+
+.presentacion{
+    background-color: var(--color2);
+}
+
+.presentacion p{
+    font-size: 25px;
+}
+
+.letra-grande{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.subtitulo{
+    font-family: var(--tipo1);
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.about-me p{
+    font-size: 20px;
+}
+
+.about-me{
+    padding: 50px;
+}
+
+.frase{
+    background-color: var(--color3);
+    color: #ffffff;
+    font-family: var(--tipo1);
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    font-style: italic;
+}
+
+.referencias{
+    padding: 70px;
+}
+
+.referencias h2{
+    padding: 20px;
+}
+
+.inicio-servicios{
+    background-color: var(--color2);
+    padding: 50px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.inicio-servicios h2{
+    font-size: 80px;
+    font-family: var(--tipo1);
+}
+
+.filtro{
+    background-position: center;
+	background-size: cover;
+    background-color: rgba(0,0,0,0.100);
+  	background-blend-mode: multiply;
+}
+
+.servicios{
+    background-position: center;
+	background-size: cover;
+    background-color: rgba(0,0,0,0.100);
+  	background-blend-mode: multiply;
+}
+
+.servicios h5{
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.servicios p{
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+
+#list-follow a{
+	font-size: 16px;
+	background-color: #a3a7a7;
+	color: #fff;
+	width: 25px;
+	height: 25px;
+	display: block;
+	text-align: center;
+	border-radius: 4px;
+}
+
+#list-follow a:hover{
+	background-color: var(--color-primary);
+}
+
+.contacto{
+    padding: 50px;
+}
+
+
+.btn-primary{
+	background-color: var(--color3);
+	padding: 15px 40px;
+	border-color: var(--color3);
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.btn-primary:hover{
+	background-color: #fff;
+	color: var(--color3);
+	border-color: var(--color3);
+}
+
+.icon{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.extra-contacto{
+    padding: 50px 0;
+}
+
+.pad{
+    padding: 30px 0;
+}
+
+.portafolio h4{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.portafolio h5{
+    font-size: 30px;
+    color: var(--color4);
+    font-weight: 300;
+}
+
+.portafolio p{
+    font-size: 20px;
+}
